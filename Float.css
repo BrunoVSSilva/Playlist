@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #0B0733;
+}
+.mae{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.Lista_navegação{
+    position: fixed;
+    background-color: #030117;
+    display: block;
+    margin-right: 85%;
+    height: 100%;
+    width: 15%;
+}
+.Bloco_logo_nome{
+    padding: 2%;
+    display: block;
+    margin-left: 35%;
+    cursor: pointer;
+    width: 2%;
+}
+.Logoheader{
+    padding: 0.4%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+h1{
+    color: white;
+}
+.inicio{
+    font-size: 25px;
+    color: white;
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 4%;
+    cursor: pointer;
+}
+.lista_de_album{
+    text-decoration: white;
+    color: white;
+    margin-left: 15%;
+    line-height: 150%;
+}
+.lista_de_album ul li{
+    list-style-type: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.lista_redes ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 165%;
+    margin-left: 15%;
+    color: white;
+    gap: 15%;
+    cursor: pointer;
+}
+.search_block{
+    position: absolute;
+    width: 877px;
+    height: 35px;
+    left: 18%;
+    top: 40px;
+
+    background: rgba(31, 26, 92, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.search{
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    left: 10px;
+    top: 0px;
+    font-size: 25px;
+    color: white;
+}
+.caixa_texto{
+    color: white;
+    background-color: rgba(31, 26, 92, 0.8);
+    border: 0px;
+    width: 500px;
+    height: 25px;
+}
+.caixa_video_total{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 80%;
+    margin-left: 18%;
+    margin-top: 10%;
+    gap: 1%;
+}
+.caixa_nome1{
+    width: 263px;
+    height: 150px;
+    left: 18%;
+    top: 40%;
+    color: #FFFFFF;
+}
+.caixa_video1{
+    box-sizing: border-box;
+    width: 263px;
+    height: 150px;
+    left: 18%;
+    top: 20%;
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/balaomagico.jpg);
+    background-size: cover;
+}
+.caixa_video1:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome2{
+    width: 263px;
+    height: 150px;
+    left: 36%;
+    top: 40%;
+    color: #FFFFFF;
+}
+.caixa_video2{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 36%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/backstreetboys.jpg);
+    background-size: cover;
+}
+.caixa_video2:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome3{
+    width: 263px;
+    height: 150px;
+    left: 54%;
+    top: 40%;
+    color: #FFFFFF;
+    
+}
+.caixa_video3{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 54%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/greenday.jpg);
+    background-size: cover;
+}
+.caixa_video3:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome4{
+    width: 263px;
+    height: 150px;
+    left: 72%;
+    top: 40%;
+    color: #FFFFFF;
+}
+.caixa_video4{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 72%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/SimplePlan.jpg);
+    background-size: cover;
+}
+.caixa_video4:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome5{
+    width: 263px;
+    height: 150px;
+    left: 18%;
+    top: 70%;
+    color: #FFFFFF;
+}
+.caixa_video5{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 18%;
+    top: 50%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/custer.jpg);
+    background-size: cover;
+}
+.caixa_video5:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome6{
+    width: 263px;
+    height: 150px;
+    left: 36%;
+    top: 70%;
+    color: #FFFFFF;
+}
+.caixa_video6{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 36%;
+    top: 50%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/Starshopping.jpg);
+    background-size: cover;
+}
+.caixa_video6:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome7{
+    width: 263px;
+    height: 150px;
+    left: 54%;
+    top: 70%;
+    color: #FFFFFF;
+}
+.caixa_video7{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 54%;
+    top: 50%;
+
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/Hooligan.jpg);
+    background-size: cover;
+
+}
+.caixa_video7:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_nome8{
+    width: 263px;
+    height: 150px;
+    left: 72%;
+    top: 70%;
+    color: #FFFFFF;
+}
+.caixa_video8{
+    box-sizing: border-box;
+
+    width: 263px;
+    height: 150px;
+    left: 72%;
+    top: 50%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url(./imagem/thumbnail/Willhe.jpg);
+    background-size: cover;
+}
+.caixa_video8:hover{
+    width: 290px;
+    height: 190px;
+}
+.caixa_video_total li{
+    list-style: none;
+}
+.caixa_video_total_player li{
+    list-style: none;
+}
+
+.caixa_nome_player1{
+    position: absolute;
+    width: 263px;
+    height: 150px;
+    left: 18%;
+    top: 47%;
+    color: #FFFFFF;
+}
+.caixa_video_letras_player1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 496px;
+    left: 45%;
+    top: 20%;
+
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.letra1{
+    position: absolute;
+    width: 325px;
+    height: 450px;
+    left: 46%;
+    top: 22%;
+
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.caixa_video_letras_player2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 496px;
+    left: 70%;
+    top: 20%;
+
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.letra2{
+    position: absolute;
+    width: 325px;
+    height: 450px;
+    left: 71%;
+    top: 22%;
+
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.caixa_video_player1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/balaomagico.jpg);
+    background-size: cover;
+}
+.caixa_video_player2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/backstreetboys.jpg);
+    background-size: cover;
+}
+.caixa_video_player3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/greenday.jpg);
+    background-size: cover;
+}
+.caixa_video_player4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/SimplePlan.jpg);
+    background-size: cover;
+}
+.caixa_video_player5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/custer.jpg);
+    background-size: cover;
+}
+.caixa_video_player6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/Starshopping.jpg);
+    background-size: cover;
+}
+.caixa_video_player7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/Hooligan.jpg);
+    background-size: cover;
+}
+.caixa_video_player8{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 18%;
+    top: 20%;
+    
+    background: rgba(31, 26, 92, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-image: url(./imagem/thumbnail/Willhe.jpg);
+    background-size: cover;
+}
+.caixa_musicplayer{
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 30%;
+    top: 66%;
+    left: 18%;
+}
